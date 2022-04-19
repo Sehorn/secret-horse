@@ -1,8 +1,5 @@
+import { Props } from 'next/script'
 import React, { useCallback, useEffect, useState } from 'react'
- 
-interface Props {
-    children: string
-}
 
 interface ScrollValue {
     scrollY: number
