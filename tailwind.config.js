@@ -10,7 +10,7 @@ module.exports = {
       },
       backgroundImage: {
         "pack-train":
-          "url('https://64.media.tumblr.com/072ce8ed7a1ae906be3d48edd4c5faff/6f9d4a3279d367fa-94/s1280x1920/b9c6823d25f72adccf59e81f905658456b283521.gifv')",
+          "url('https://64.media.tumblr.com/a86b91712abc92e44fdf1d5162c0938a/678b5d737f8219ed-28/s640x960/79628bb9d5e4456fac22b0f0f9a009f456e4b8e9.gif')",
       },
     },
   },

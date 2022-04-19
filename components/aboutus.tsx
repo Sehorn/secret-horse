@@ -1,5 +1,6 @@
 import React from 'react'
 import Member from './member'
+import Image from 'next/image'
 
 const AboutUs: React.FC = () => {
     return (
@@ -10,14 +11,12 @@ const AboutUs: React.FC = () => {
                 Aliquam lorem neque, malesuada vitae interdum et, pretium nec odio. Nam dictum tellus ex, non bibendum lorem laoreet sit amet.
             </p>
         </div>
-        <div className="container mx-auto px-11 text-center mt-28">
-            <h2 className="mb-20"><strong>Our Team</strong></h2>
-            <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 lg:gap-20">
-            <Member id="charmander" name="Charlie" socialId="" link="Austin"/>
-            <Member id="squirtle" name="Alan" socialId="" link=""/>
-            <Member id="jigglypuff" name="Samantha" socialId="" link=""/>
-            <Member id="pikachu" name="Greg" socialId="" link=""/>
-            <Member id="psyduck" name="Courtney" socialId="" link=""/>
+        <div className="container mx-auto px-11 text-center mt-10">
+            <h2 className="mb-20"><strong></strong></h2>
+            <div className="mt-10 justify-center items-center flex flex-col">
+            <img src="https://i.gifer.com/My.gif"></img>
+            
+            
           
             
             </div>
