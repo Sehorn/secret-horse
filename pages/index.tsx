@@ -1,11 +1,11 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import Masthead from '../components/masthead'
-import AboutUs from '../components/aboutus'
-import Skills from '../components/skills'
-import ContactUs from '../components/contactus'
-import Footer from '../components/footer'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import Masthead from "../components/masthead";
+import AboutUs from "../components/aboutus";
+import Skills from "../components/skills";
+import ContactUs from "../components/contactus";
+import Footer from "../components/footer";
 
 const Home: NextPage = () => {
   return (
@@ -20,9 +20,8 @@ const Home: NextPage = () => {
       <Skills />
       <ContactUs />
       <Footer />
-     
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
