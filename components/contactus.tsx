@@ -1,4 +1,4 @@
-import React, { useState, useCallBack } from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 
 const ContactUs: React.FC = () => {
