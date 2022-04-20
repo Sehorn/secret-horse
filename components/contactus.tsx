@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const ContactUs: React.FC = () => {
   return (
-    <div className="bg-white text-black flex flex-col justify-center items-center pt-10 p-12 min-h-3/5">
-      <div className="flex-1 flex flex-col justify-center items-center pt=10 lg:pt-6">
+    <div className="bg-white text-black flex flex-col justify-center items-center pt-10 pb-10 min-h-3/5">
+      <div className="flex-1 flex flex-col min-w-full justify-center items-center pt=10 lg:pt-6">
         <div className="pb-10">
-          <Image src="/secrethorse.png" width={60} height={50} alt="logo" />
+          <Image src="/secrethorse.png" width={50} height={40} alt="logo" />
         </div>
         <h2 className="text-4xl font-bold">Contact</h2>
         <form className="flex flex-col gap-4 mt-16 px-10 lg:mt-20 min-w-full md:min-w-[500px] lg:min-w-[600px]">

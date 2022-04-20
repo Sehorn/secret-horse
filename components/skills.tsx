@@ -26,7 +26,7 @@ const Skills: React.FC = () => {
 
   return (
     <div ref={refContainer} className="bg-black text-white">
-      <div className="min-h-screen max-w-5xl mx-auto px-10 lg:px-20 py-24 md:py-28 lg:py-36 flex flex-col justify-center items-center text-5xl med:text-6xl lg:text-6xl tracking-tight font-semibold text-center">
+      <div className="min-h-screen max-w-5xl mx-auto px-10 lg:px-20 py-24 md:py-28 lg:py-36 flex flex-col justify-center items-center text-4xl med:text-5xl lg:text-6xl tracking-tight font-semibold text-left">
         <div className="leading-[1.15]">
           <div
             className={s.skillText}
