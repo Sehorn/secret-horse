@@ -1,6 +1,6 @@
 import React, { useRef, useContext, useState, useCallback } from "react";
 import Image from "next/image";
-import { ScrollContext } from "./scroll-observer";
+import { ScrollContext } from "../utils/scroll-observer";
 
 const Masthead: React.FC = () => {
   const [imageLoaded, setImageLoaded] = useState(false);

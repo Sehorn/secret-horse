@@ -1,6 +1,6 @@
 import React, { useContext, useRef } from "react";
 import s from "../styles/skills.module.css";
-import { ScrollContext } from "./scroll-observer";
+import { ScrollContext } from "../utils/scroll-observer";
 
 const opacityForBlock = (sectionProgress: number, blockNo: number) => {
   const progress = sectionProgress - blockNo;

@@ -6,6 +6,7 @@ import AboutUs from "../components/aboutus";
 import Skills from "../components/skills";
 import ContactUs from "../components/contactus";
 import Footer from "../components/footer";
+import useSWR from 'swr'
 
 const Home: NextPage = () => {
   return (
