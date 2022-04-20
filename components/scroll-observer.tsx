@@ -1,4 +1,3 @@
-import { Props } from "next/script";
 import React, { useCallback, useEffect, useState } from "react";
 
 interface ScrollValue {
@@ -9,7 +8,7 @@ export const ScrollContext = React.createContext<ScrollValue>({
   scrollY: 0,
 });
 
-const ScrollObserver: React.FC<Props> = ({ children }) => {
+const ScrollObserver: React.FC = ({ children }) => {
   const [scrollY, setScrollY] = useState(0);
   const handleScroll = useCallback(() => {
     setScrollY(window.scrollY);

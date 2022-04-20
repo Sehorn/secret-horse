@@ -1,6 +1,5 @@
 import React, { useRef, useContext, useState, useCallback } from "react";
 import Image from "next/image";
-import { url } from "inspector";
 import { ScrollContext } from "./scroll-observer";
 
 const Masthead: React.FC = () => {
@@ -28,7 +27,10 @@ const Masthead: React.FC = () => {
         flex-col 
         items-center 
         justify-center
-        
+        bg-pack-train
+        bg-cover
+        bg-no-repeat 
+        bg-center
         sticky
         top-0
         -z-10
