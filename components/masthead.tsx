@@ -28,10 +28,7 @@ const Masthead: React.FC = () => {
         flex-col 
         items-center 
         justify-center
-        bg-pack-train
-        bg-cover
-        bg-no-repeat 
-        bg-center
+        
         sticky
         top-0
         -z-10
