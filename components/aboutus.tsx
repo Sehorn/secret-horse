@@ -6,18 +6,17 @@ const AboutUs: React.FC = () => {
   return (
     <section className={`flex flex-col bg-white py-20 text-3xl md:text-4xl`}>
       <div className="container mx-auto px-11">
-        <p className="leading-tight max-w-5xl mx-auto text-4xl tracking-tight">
-          <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong>
+        <p className="leading-tight max-w-5xl mx-auto text-4xl tracking-tight text-center">
+          <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </strong> <br />
+          <br />
           Aliquam lorem neque, malesuada vitae interdum et, pretium nec odio. Nam dictum tellus ex, non bibendum lorem laoreet sit
-          amet.
+          amet. Aliquam lorem neque, malesuada vitae interdum et, pretium nec odio. Nam dictum tellus ex, non bibendum lorem
+          laoreet sit amet.
         </p>
       </div>
-      <div className="container mx-auto px-11 text-center mt-10">
-        <h2 className="mb-20">
-          <strong></strong>
-        </h2>
-        <div className="mt-10 justify-center items-center flex flex-col">
-          <img src="https://i.gifer.com/My.gif"></img>
+      <div className="container mx-auto px-11 text-center mt-20">
+        <div className="justify-center items-center flex flex-col">
+          <img src="https://i.gifer.com/My.gif" width="600" height="500" alt="" />
         </div>
       </div>
     </section>

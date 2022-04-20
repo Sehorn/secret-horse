@@ -8,8 +8,8 @@ const ContactUs: React.FC = () => {
         <div className="pb-10">
           <Image src="/secrethorse.png" width={60} height={50} alt="logo" />
         </div>
-        <h2 className="text-4xl font-bold">Contact Us</h2>
-        <form className="flex flex-col gap-4 mt-16 px-10 lg:mt-20 min-w-full lg:min-w-[500px]">
+        <h2 className="text-4xl font-bold">Contact</h2>
+        <form className="flex flex-col gap-4 mt-16 px-10 lg:mt-20 min-w-full md:min-w-[500px] lg:min-w-[600px]">
           <input
             id="name"
             name="name"
@@ -25,7 +25,7 @@ const ContactUs: React.FC = () => {
             type="email"
             required
             maxLength={128}
-            placeholder="E-mail"
+            placeholder="Email"
             className="bg-white text-black outline-none border-2 border-black px-4 py-2"
           />
           <textarea
@@ -37,8 +37,10 @@ const ContactUs: React.FC = () => {
             className="bg-white text-black outline-none border-2 border-black px-4 py-4 min-h-[16em]"
           ></textarea>
           <div className="text-center mt-10">
-            <button type="submit" className=" border-2 border-black px-8 py-2">
-              <strong>Submit</strong>
+            <button type="submit" className=" text-black border-2 border-black px-8 py-2 hover:bg-black hover:text-white">
+              <a>
+                <strong>Submit</strong>
+              </a>
             </button>
           </div>
         </form>

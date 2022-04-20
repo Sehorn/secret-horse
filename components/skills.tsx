@@ -26,7 +26,7 @@ const Skills: React.FC = () => {
 
   return (
     <div ref={refContainer} className="bg-black text-white">
-      <div className="min-h-screen max-w-5xl mx-auto px-10 lg:px-20 py-24 md:py-28 lg:py-36 flex flex-col justify-center items-center text-4xl med:text-6xl lg:text-6xl tracking-tight font-semibold">
+      <div className="min-h-screen max-w-5xl mx-auto px-10 lg:px-20 py-24 md:py-28 lg:py-36 flex flex-col justify-center items-center text-5xl med:text-6xl lg:text-6xl tracking-tight font-semibold text-center">
         <div className="leading-[1.15]">
           <div
             className={s.skillText}
@@ -34,16 +34,18 @@ const Skills: React.FC = () => {
               opacity: opacityForBlock(progress, 0),
             }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non consectetur ex, in feugiat erat. Aenean non
-            lorem id sem ullamcorper hendrerit at ut massa.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </div>
-          <span className={`${s.skillText} inline-block after:content-['_']`} style={{ opacity: opacityForBlock(progress, 1) }}>
+          <br />
+          <div className={`${s.skillText} inline-block after:content-['_']`} style={{ opacity: opacityForBlock(progress, 1) }}>
             Nulla eu orci faucibus, vestibulum elit id, interdum est. Maecenas sodales sagittis auctor. Nullam bibendum et sapien
             in semper.
-          </span>
-          <span className={`${s.skillText} inline-block `} style={{ opacity: opacityForBlock(progress, 2) }}>
+            <br />
+            <br />
+          </div>
+          <div className={`${s.skillText} inline-block `} style={{ opacity: opacityForBlock(progress, 2) }}>
             Mauris euismod semper nisi. Nulla risus mi, egestas vel mauris id, convallis semper mi <strong>1,943</strong> massa.
-          </span>
+          </div>
         </div>
       </div>
     </div>

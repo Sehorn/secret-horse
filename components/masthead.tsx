@@ -39,21 +39,18 @@ const Masthead: React.FC = () => {
       style={{ transform: `translateY(-${progress * 20}vh)` }}
     >
       <div className={`flex-grow-0 pt-10 transition-opacity duration-1000 ${imageLoaded ? "opacity-100" : "opacity-0"}`}>
-        <Image src="/secrethorse.svg" width={550 / 2} height={100 / 2} alt="logo" />
+        <Image src="/secrethorse.svg" width={700 / 2} height={150 / 2} alt="logo" />
       </div>
 
-      <div className="p-12 font-bold z-10 text-white drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-center flex-1 flex items-center justify-center flex-col">
-        <h1 className="mb-6 text-4xl xl:text-5xl"></h1>
-        <h2 className="mb-4 text-3xl xl:text-3xl tracking-tight">
-          <span>In a mechanized world, we have a need for living horsepower.</span>
-        </h2>
+      <div className="p-12 font-bold z-10 text-white drop-shadow-[0_5px_3px_rgba(255,255,255,0.3)] text-center flex-1 flex items-center justify-center flex-col">
+        <h2 className="mb-4 text-4xl xl:text-4xl tracking-tight">In a mechanized world, we have a need for living horsepower.</h2>
       </div>
       <div
         className={`flex-grow-0 items-center justify-center pb-20 md:pb-10 transition-all duration-1000 ${
           imageLoaded ? "opacity-100" : "opacity-0 -translate-y-10"
         }`}
       >
-        <Image src="/chevron-white.svg" width={188 / 3} height={105 / 3} alt="scroll down" onLoad={handleImageLoaded} />
+        <Image src="/chevron-white.svg" width={100 / 3} height={80 / 3} alt="scroll down" onLoad={handleImageLoaded} />
       </div>
     </div>
   );
