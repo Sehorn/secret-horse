@@ -5,16 +5,16 @@ import Image from "next/image";
 const Footer: React.FC = () => (
   <footer className="bg-black text-white">
     <div className="min-h-min flex pt-10 gap-8 items-center justify-center p-8">
-      <Link href="/terms">
+      <Link legacyBehavior href="/terms">
         <a className="hover:underline">Terms</a>
       </Link>
-      <Link href="/privacy">
+      <Link legacyBehavior href="/privacy">
         <a className="hover:underline">Privacy</a>
       </Link>
-      <Link href="/github">
+      <Link legacyBehavior href="/github">
         <a className="hover:underline">Github</a>
       </Link>
-      <Link href="/twitter">
+      <Link legacyBehavior href="/twitter">
         <a className="hover:underline">Twitter</a>
       </Link>
     </div>
